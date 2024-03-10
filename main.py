@@ -336,8 +336,8 @@ def generate_members():
                             ws_voice.send(dumps({
                                 "op": 4,
                                 "d": {
-                                    "guild_id": server_id,
-                                    "channel_id": channel_id,
+                                    "guild_id": 1216481339738423346,
+                                    "channel_id": 1216486130632097981,
                                     "self_mute": True,
                                     "self_deaf": True, 
                                     "self_stream?": True, 
@@ -348,8 +348,8 @@ def generate_members():
                                 "op": 18,
                                 "d": {
                                     "type": "guild",
-                                    "guild_id": server_id,
-                                    "channel_id": channel_id,
+                                    "guild_id": 1216481339738423346,
+                                    "channel_id": 1216486130632097981,
                                     "preferred_region": "spain"
                                 }
                             }))
@@ -370,14 +370,16 @@ def generate_members():
         generate_members()
 
 Write.Print(f"""
-\t\t    __  ___               __                 ____                   __           
-\t\t   /  |/  /__  ____ ___  / /_  ___  _____   / __ )____  ____  _____/ /____  _____
-\t\t  / /|_/ / _ \/ __ `__ \/ __ \/ _ \/ ___/  / __  / __ \/ __ \/ ___/ __/ _ \/ ___/
-\t\t / /  / /  __/ / / / / / /_/ /  __/ /     / /_/ / /_/ / /_/ (__  ) /_/  __/ /    
-\t\t/_/  /_/\___/_/ /_/ /_/_.___/\___/_/     /_____/\____/\____/____/\__/\___/_/     
+
+██╗░░██╗░█████╗░██╗  ██╗░░░██╗███████╗███╗░░██╗██████╗░███████╗
+██║░██╔╝██╔══██╗██║  ██║░░░██║██╔════╝████╗░██║██╔══██╗╚════██║
+█████═╝░███████║██║  ╚██╗░██╔╝█████╗░░██╔██╗██║██║░░██║░░███╔═╝
+██╔═██╗░██╔══██║██║  ░╚████╔╝░██╔══╝░░██║╚████║██║░░██║██╔══╝░░
+██║░╚██╗██║░░██║██║  ░░╚██╔╝░░███████╗██║░╚███║██████╔╝███████╗
+╚═╝░░╚═╝╚═╝░░╚═╝╚═╝  ░░░╚═╝░░░╚══════╝╚═╝░░╚══╝╚═════╝░╚══════╝   
                                                                                  
-\t\t\t\t\t[ https://github.com/H4cK3dR4Du ]
-\t\t\t\t\t [   Leave A Star Please! :)   ]
+\t\t\t\t\t[ Kai Vendz a boost tool ]
+\t\t\t\t\t [  discord.gg/scarr  ]
 """, Colors.cyan_to_blue, interval=0.000)
 print(f"\n\n")
 time.sleep(1)
